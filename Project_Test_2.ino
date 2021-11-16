@@ -5,13 +5,13 @@
 #include <Adafruit_MQTT_Client.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "Xiaomi_214F";//Wifi credentials
-const char* password = "sisira01";
+const char* ssid = "xxxxxx";//Wifi credentials
+const char* password = "xxxxx";
 
 //define the parameters for the IFTTT
 #define HOSTIFTTT "maker.ifttt.com"
 #define EVENTO "accident"
-#define IFTTTKEY "ctQP0Wd5xmbkfMmlztWi_F"
+#define IFTTTKEY "xxxxxxxxx"
 #include "AnotherIFTTTWebhook.h" //For Webhooks IFTTT
 
 //Adafruit MQTT
